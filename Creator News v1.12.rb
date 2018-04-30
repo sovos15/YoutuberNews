@@ -19,5 +19,7 @@ fh = File.open('Creator News.json', 'w')
 fh.puts response_body
 fh.close
 
+rake gen_deploy 
+
 file = open("Creator News.json")
 json = file.read
