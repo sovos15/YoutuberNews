@@ -13,6 +13,6 @@ response_body = req.read
 
 puts response_body
 
-fh = File.open('Creator News.json', 'w')
+fh = File.open('Creator News.rb', 'w')
 fh.puts response_body
 fh.close
