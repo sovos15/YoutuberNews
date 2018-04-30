@@ -12,3 +12,4 @@ group :development, :test do
   gem "git", github: "hone/ruby-git", branch: "master"
   gem 'json', '~> 2.0.2'
 end
+ ruby '2.3.7'
