@@ -1,2 +1,2 @@
-web:Creator News v1.12.rb
+web:start v1.12.rb
 
