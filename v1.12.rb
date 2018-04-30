@@ -18,6 +18,4 @@ puts response_body
 fh = File.open('Creator News.json', 'w')
 fh.puts response_body
 fh.close
-fh = Flile.open("Creator News.json")
-json = file.read
-puts json
+heroku -a "creator news.json" --json
