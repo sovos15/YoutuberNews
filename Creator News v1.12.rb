@@ -1,4 +1,6 @@
+require 'rubygems'
 require 'open-uri'
+require 'json'
 
 url = 'https://newsapi.org/v2/everything?'\
       'Q=content creators&'\
@@ -16,3 +18,6 @@ puts response_body
 fh = File.open('Creator News.json', 'w')
 fh.puts response_body
 fh.close
+
+file = open("shops.json")
+json = file.read
